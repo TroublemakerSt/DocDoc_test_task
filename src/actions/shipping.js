@@ -7,7 +7,7 @@ import {
 	CHANGE_MODAL_STATE
 } from '../types';
 
-const API_PATH = 'http://ladux.ru/test.php';
+const API_PATH = 'https://cp.ladux.ru/test.php';
 
 export const saveUserInfoShippingStep = userData => ({
 	type: SAVE_SHIPPING_USER_INFO,
